@@ -4,13 +4,12 @@ $(document).ready(function() {
 
   $(textArea).keyup(function(){
     var tweetLength = textArea.text().length;
-    console.log(tweetLength);
+    // console.log(tweetLength);
     if(tweetLength > 0 && tweetLength <= 140){
       $('button').removeAttr('disabled')
     } else {
       $('button').attr('disabled', 'disabled');
-    }
-    
+    } 
   });
   
 

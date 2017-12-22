@@ -57,7 +57,7 @@ $(document).ready(function() {
     var dateText = $(hourTweet + ':' + minutes + ' '+ amPm)
     pagrafDate.append(dateText);
     pagrafDate.attr('class', 'date');
-    containerBig.append(paragraphMessage,pagrafDate);
+    containerBig.append(pagrafDate);
     containerBig.attr('class', 'paragraph');
     $('#counter-characters').text(cantcharacters);
   });
